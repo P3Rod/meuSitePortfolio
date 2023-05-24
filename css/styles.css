@@ -1,11 +1,67 @@
+/*geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    background-color: black;
+}
+body {
+    flex-wrap: wrap;
+}
+/*fontes*/
 span {color: red;}
-a {text-decoration: none;}
+a {text-decoration: none; color: aliceblue;}
+h1 {color: aliceblue;}
+p {color: aliceblue;}
+/*header menu*/
+header {
+    display: flex;
+    align-items: center;
+    background: rgb(26, 26, 26);
+    padding: 2rem 4rem;
+    width: 100%;
+}
+#name-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/*section home*/
+#s-home {
+    display: flex;
+    background-color: black;
+    flex: 2.5;
+    padding: 2rem 4rem;
+    font-size: 1.3rem;
+}
+#text-home {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    max-width: 670px;
+}
+#subtext-home {
+    margin-bottom: 3rem;
+    max-width: 600px;
+    line-height: 1.4rem;
+}
+/*logo-background*/
+#logo-background {
+   
+}
+/* clickCurriculo */
 .clickCurriculo {
     width: 500px;
     height: 500px;
     padding: 10px;
-    margin-bottom: auto;
+    margin-bottom: 33rem;
     background-color: red;
     border: 3px;
     border-radius: 5px;
+}
+/*section about*/
+#s-about {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex: 1.4;
+    padding: 2rem 4rem;
 }
