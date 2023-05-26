@@ -15,28 +15,27 @@
     <link rel="shortcut icon" href="img/logopequena.png" type="image/x-icon">
 </head>
 <body>
-    <header style="justify-content: space-between;">
-        <nav>
-            <img id="logo-header" src="img/logopequena.png" alt="logo-header">
-            <span id="name-header">Portfólio</span>            
-        </nav>
-        <nav>
+    <header>
+        <nav style="display: flex; justify-content: space-between; width: 95%; margin: 0 auto;">
+            <div style="display: flex; align-items: center;">
+                <img id="logo-header" src="img/logo-sem-fundo.svg" alt="logo-header">
+                <span id="name-header">Portfólio</span>
+            </div>
             <ul id="nav-menu">
-                <li style="padding: 0rem 2rem;"><a href="#">Página inicial</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-              </ul>
+                <li class="itens-nav"><a href="#">Página inicial</a></li>
+                <li class="itens-nav"><a href="#">Sobre</a></li>
+                <li class="itens-nav"><a href="#">Contato</a></li>
+            </ul>
         </nav>
     </header>
-    <section id="s-home" style="justify-content: space-between;">
-        <div id="home-container">              
+    <section id="s-home">
+        <div style="margin-bottom: 10rem;">              
             <h1 id="text-home">Olá, me chamo Pedro Vitor, sou um jovem <span>programador</span> apaixonado por tecnologia.</h1>
             <p id="subtext-home">Sempre buscando soluções inovadoras para os desafios que surgem na programação e no desenvolvimento de software.</p>
-            <a href="https://drive.google.com/file/d/1cD08gxWh9C_3LPqkTvt3JlpPRUcALUM2/view?usp=share_link" class="clickCurriculo">Currículo</a>
+            <a class="clickCurriculo" target="_blank" href="https://drive.google.com/file/d/1cD08gxWh9C_3LPqkTvt3JlpPRUcALUM2/view?usp=share_link">Currículo</a>
         </div>
-        <div id="logo-background">
-            <!--logo-->        
-            <img src="img/logo.png" alt="Portfólio">       
+        <div>  
+            <img style="width: 300px;" src="img/logo-sem-fundo.svg" alt="Portfólio">       
         </div>       
     </section>
     <section id="s-about">
