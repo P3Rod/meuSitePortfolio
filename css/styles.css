@@ -1,0 +1,85 @@
+/*geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+body {
+    flex-wrap: wrap;
+}
+/*fontes*/
+span {color: red;}
+a {text-decoration: none; color: aliceblue;}
+h1 {color: aliceblue;}
+p {color: aliceblue;}
+/*header menu*/
+header {
+    display: flex;
+    align-items: center;
+    background: rgb(26, 26, 26);
+    padding: 2rem 4rem;
+    width: 100%;
+}
+#nav-menu {
+    display: flex;
+    align-items: center;
+    padding: 2rem 2rem;
+    list-style-type: none;
+    
+}
+#name-header {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+#logo-header {
+    width: 30px;
+}
+/*section home*/
+#s-home {
+    display: flex;
+    background-color: black;
+    flex: 2.5;
+    padding: 2rem 4rem;
+    font-size: 1.3rem;
+    height: 600px;
+}
+#text-home {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    max-width: 800px;
+    padding: 2rem 3rem;
+    margin-top: 4rem;
+}
+#subtext-home {
+    margin-bottom: 3rem;
+    max-width: 700px;
+    line-height: 1.4rem;
+    padding: 0rem 3rem;
+}
+/*logo-background*/
+#logo-background {
+    background-color: black;
+    margin-top: 7rem;
+    align-items: center;
+    padding-left: 12rem;
+   
+}
+/* clickCurriculo */
+.clickCurriculo {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    margin-bottom: 33rem;
+    background-color: red;
+    border: 3px;
+    border-radius: 5px;
+    margin-left: 3rem;
+}
+/*section about*/
+#s-about {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex: 1.4;
+    padding: 2rem 4rem;
+}
