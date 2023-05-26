@@ -10,39 +10,39 @@ body {
 }
 /*fontes*/
 span {color: red;}
-a {text-decoration: none; color: aliceblue;}
+a {text-decoration: none; list-style: none; color: aliceblue;}
 h1 {color: aliceblue;}
 p {color: aliceblue;}
 /*header menu*/
 header {
-    display: flex;
-    align-items: center;
     background: rgb(26, 26, 26);
-    padding: 2rem 4rem;
-    width: 100%;
+    margin: 0;
+    padding: 0.4rem
+}
+.itens-nav {
+    padding: 0.5rem;
 }
 #nav-menu {
     display: flex;
     align-items: center;
-    padding: 2rem 2rem;
     list-style-type: none;
     
 }
 #name-header {
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 #logo-header {
-    width: 30px;
+    width: 25px;
 }
 /*section home*/
 #s-home {
+    flex-wrap: wrap;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
-    flex: 2.5;
-    padding: 2rem 4rem;
-    font-size: 1.3rem;
-    height: 600px;
+    padding: 2rem 2rem;
 }
 #text-home {
     margin-bottom: 1rem;
@@ -53,24 +53,15 @@ header {
 }
 #subtext-home {
     margin-bottom: 3rem;
+    font-size: 1.3rem;
     max-width: 700px;
     line-height: 1.4rem;
     padding: 0rem 3rem;
 }
-/*logo-background*/
-#logo-background {
-    background-color: black;
-    margin-top: 7rem;
-    align-items: center;
-    padding-left: 12rem;
-   
-}
-/* clickCurriculo */
 .clickCurriculo {
     width: 500px;
     height: 500px;
     padding: 10px;
-    margin-bottom: 33rem;
     background-color: red;
     border: 3px;
     border-radius: 5px;
