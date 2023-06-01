@@ -16,10 +16,10 @@
 </head>
 <body>
     <header>
-        <nav style="display: flex; justify-content: space-between; width: 95%; margin: 0 auto;">
+        <nav id="header-nav" style="display: flex; justify-content: space-between; width: 95%; margin: 0 auto;">
             <div style="display: flex; align-items: center;">
                 <img id="logo-header" src="img/logo-sem-fundo.svg" alt="logo-header">
-                <span id="name-header">Portfólio</span>
+                <a id="name-header" href="#">Portfólio</a>
             </div>
             <ul id="nav-menu">
                 <li class="itens-nav"><a href="#">Página inicial</a></li>
@@ -29,17 +29,33 @@
         </nav>
     </header>
     <section id="s-home">
-        <div style="margin-bottom: 10rem;">              
+        <div style="margin-bottom: 6rem;">              
             <h1 id="text-home">Olá, me chamo Pedro Vitor, sou um jovem <span>programador</span> apaixonado por tecnologia.</h1>
             <p id="subtext-home">Sempre buscando soluções inovadoras para os desafios que surgem na programação e no desenvolvimento de software.</p>
             <a class="clickCurriculo" target="_blank" href="https://drive.google.com/file/d/1cD08gxWh9C_3LPqkTvt3JlpPRUcALUM2/view?usp=share_link">Currículo</a>
         </div>
         <div>  
-            <img style="width: 300px;" src="img/logo-sem-fundo.svg" alt="Portfólio">       
+            <img style="width: 300px; " src="img/logo-sem-fundo.svg" alt="Portfólio">       
         </div>       
     </section>
     <section id="s-about">
-        <h1>Quem sou</h1>
+        <div style="background-color: #0f0f0f; margin-left: auto; margin-right: auto; display: flex; align-items: center;">
+            <div id="img-about">
+                <img src="img/about.png" alt="imagem ilustrativa de um jovem programando">
+            </div>
+            <div style="border: 2px solid rgb(53, 53, 53); margin-right: 3rem; background: rgb(26, 26, 26);">
+                <h2 style="color: aliceblue; padding: 10px; font-size: 3rem;">Quem sou!</h2>
+                <div>
+                    <p style="word-break: break-word; padding: 2rem; font-size: 2rem;">
+                           Olá, sou um programador talentoso, apaixonado pela arte da programação. Tenho 
+                        habilidades técnicas em diversas e uma mente analítica para resolver problemas
+                        complexos. Além disso, sou um excelente comunicador e estou sempre em busca de
+                        aprendizado. Minha dedicação e qualidade na criação de software me tornam um
+                        ativo valioso em qualquer equipe.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>
